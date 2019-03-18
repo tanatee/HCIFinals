@@ -1,0 +1,133 @@
+h1{
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 2px;
+    color: white;
+}
+body{
+  height: 80%;
+  padding-top: -20px;
+  background-position: fixed;
+  background-size: cover ;
+  background-color: white;
+
+} 
+h2{
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+}
+.nav{
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    float: right;
+    width: auto;
+  }
+  .nav li{
+    float: left;
+  }
+  .nav li a{
+    float: top right;
+    padding: 15px;
+    position: relative;
+    font-weight:800;
+    display: inline-block;
+    text-decoration: none;
+    width: auto;
+    color: black;
+    font-size: 18px;
+  }
+  .nav li a:hover{
+    color: black;
+    border-bottom: 2px solid red;
+  }
+.registration{
+  text-align: left;
+  background-color: lightblue;
+  height: 300px;
+  width: 700px;
+  padding: 50px;
+  padding-bottom: 100px;
+  margin: 300px;
+  margin-top: 80px;
+  border-radius: 20px;
+  color:white; 
+  box-shadow: 15px 15px grey;
+}
+.firstname{
+    border-radius: 20px;
+    text-align: left;
+    color: white;
+}
+.middlename{
+    border-radius: 20px;
+    text-align: left;
+    color: white;
+}
+.lastname{
+    border-radius: 20px;
+    text-align: left;
+    color: white;
+}
+.email{
+  border-radius: 20px;
+  width: 250px;
+  text-align: left;
+}
+.dob{
+  border-radius: 20px;
+  width: 250px;
+  margin-left: 50px;
+  }
+  .agenum{
+  border-radius: 10px;
+  width: 100px;
+  }
+.pswrd{
+  border-radius: 20px;
+  width: 250px;
+  height: 20px;
+}
+.button{
+  margin-left: 9px;
+  margin-bottom: 50;
+  width:130px;
+}
+.name-holder{
+  margin-top: 0px;
+  margin-right: 30px;
+}
+.name-holder div{
+  float: left;
+  margin-right: 10px;
+  margin-left: 40px;
+}
+.name-holder2{
+  margin-top: 0px;
+  margin-right: 30px;
+}
+.name-holder2 div{
+  float: right;
+  margin-right: 60px;
+  margin-left: 40px;
+}
+.button{
+  text-align: center;
+  width: 150px;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+.name-holder3{
+  margin-top:-80px;
+}
+.name-holder3 div{
+  float: left;
+  margin-right: 60px;
+  margin-left: -40px;
+}
+.eadd{
+  border-radius: 10px;
+  width: 250px;
+  height: 20px;
+}

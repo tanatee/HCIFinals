@@ -1,0 +1,56 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-size: cover;
+	background-position: center;
+	font-family:'Moon Flower';
+	font-size: 22px;
+}
+.act{
+	width: 390px;
+	height: 400px;
+	background: lightblue;
+	color: black;
+	top: 60%;
+	left: 80%;
+	position: absolute;
+	border-radius: 30px;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	text-align: center;
+	box-shadow: 15px 15px grey;
+}
+.logo{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	position: relative;
+	top: 20px;
+	left: 70px;
+}
+.esco{
+	margin-top: 100px;
+}
+.login-form p{
+	margin-bottom: 5px;	
+	margin: 20px;
+}
+.login-form .text-field{
+	width: 200px;
+}
+.login-form .button-field{
+	background-color: #10277F;
+  	border: none;
+  	color: white;
+  	padding: 8px 60px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+}
+.login-form .button-field:hover{
+	background-color: gray;
+	color: pink;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	cursor: pointer;
+}
