@@ -1,15 +1,17 @@
 body{
 	margin: 0;
 	padding: 0;
+	height: 100%;
+	width: 100%;
 	background-size: cover;
-	background-position: center;
+	background-position: fixed;
 	font-family:'Moon Flower';
 	font-size: 22px;
 }
 .act{
 	width: 390px;
 	height: 400px;
-	background: lightblue;
+	background: #D1767F;
 	color: black;
 	top: 60%;
 	left: 80%;
@@ -18,7 +20,6 @@ body{
 	transform: translate(-50%, -50%);
 	box-sizing: border-box;
 	text-align: center;
-	box-shadow: 15px 15px grey;
 }
 .logo{
 	width: 150px;
